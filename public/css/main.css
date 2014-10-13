@@ -6,8 +6,6 @@ html, body {
 
 body {
   /*background-image: url("http://www.wallpaperspictures.net/image/eastern-california-mojave-desert-wallpaper-for-1920x1200-widescreen-500-11.jpg");  */
-  /*background-image: url("file:///Users/vickynguyen/workspace/resume/public/images/mojavedesert.png");*/
-  /*background-image: url("file:///public/images/mojavedesert.png");*/
 }
 
 .container {
@@ -41,7 +39,7 @@ body {
 }
 
 .page_link a { color: #262626; }
-.page_link a:hover { color: #CDB5CD; }
+.page_link a:hover { color: #FF00CC; }
 .page_link a:active { color: #999999; }
 
 ##
@@ -80,6 +78,14 @@ a.sectionText {
 }
 
 .talkself a { color: #262626; }
-.talkself a:hover { color: #CDB5CD; }
+.talkself a:hover { color: #FF00CC; }
 .talkself a:active { color: #999999; }
 
+
+.creds { 
+  color: #a8a8a8;
+  font-size: 10px;
+}
+.creds a { color: #a8a8a8; }
+.creds a:hover { color: #FF00CC; }
+.creds a:active { color: #999999; }
