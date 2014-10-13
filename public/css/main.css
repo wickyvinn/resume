@@ -5,8 +5,8 @@ html, body {
 }
 
 body {
-  /*background-image: url("http://www.wallpaperspictures.net/image/eastern-california-mojave-desert-wallpaper-for-1920x1200-widescreen-500-11.jpg");  */
-  background-image: url("file:///Users/vickynguyen/workspace/resume/public/images/mojavedesert.png");
+  background-image: url("http://www.wallpaperspictures.net/image/eastern-california-mojave-desert-wallpaper-for-1920x1200-widescreen-500-11.jpg");  
+  /*background-image: url("file:///H:/images/mojavedesert.png");*/
 }
 
 .container {
