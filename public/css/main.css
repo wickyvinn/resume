@@ -1,78 +1,74 @@
-html, body {
+ html, body {
   margin: 0;
   padding: 0;
-  font-family: Monospace;
-}
-
-body {
-  /*background-image: url("http://www.wallpaperspictures.net/image/eastern-california-mojave-desert-wallpaper-for-1920x1200-widescreen-500-11.jpg");  */
 }
 
 .container {
   text-align: center;
   background-color: #FFFAFA;
-  margin-top: 100px;
-  margin-bottom: 200px;
-  margin-right: 300px;
-  margin-left: 300px;
+  margin-top: 130px;
+  margin-bottom: 230px;
+  margin-right: 330px;
+  margin-left: 330px;
+  padding-bottom: 50px;
 }
 
 
 ## Navigation Bar
 
 .nav_container {
-    text-align: center;
+  text-align: center;
 }
 
 .nav_container div {
-    display: inline-block;
-    margin-top: 30px;
-    padding:  20px;
+  display: inline-block;
+  padding:  20px;
 }
 
 .nav_container a {   
-    font-family: Helvetica Neue, Arial, sans-serif;
-    font-size: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-decoration: none;
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .page_link a { color: #262626; }
 .page_link a:hover { color: #FF00CC; }
-.page_link a:active { color: #999999; }
+.page_link a:active { color: #FF00CC; }
 
-##
+/*Icons*/
 
-h1 {
-	font-size: 18px;
+.icons_container { padding: 25 25;}
+
+#gmail { height:50px ; weight:50px; padding: 0px 5px;}
+#twitter { height:50px; weight:50px; }
+#github { height:50px; weight:50px; }
+#linkedin { height:50px; weight:50px;}
+
+#gmail:hover {
+  height:40px;
+  weight:40px;
+  padding: 5px 5px;
 }
 
-.contacts div {
-
+#linkedin:hover {
+  height:40px;
+  weight:40px;
+  padding: 0 0;
 }
 
-.contacts img {
-  height:50px;
-  weight:50px;
+#twitter:hover {
+  height:30px;
+  weight:30px;
+  padding: 7.5px 6.5px;
 }
 
-img.selfie {
-  height: 150px;
-  width: 205px;
-}
-
-a.sectionTitle {
-  font-size: 20px;
-}
-
-a.sectionText {
-  font-size: 10px;  
-}
+/*Body text*/
 
 .talkself {
   font-family: Monospace;
-  padding-bottom: 50px;
+  font-size: 20px;
   padding-right: 100px;
   padding-left: 100px;
 }
@@ -84,8 +80,10 @@ a.sectionText {
 
 .creds { 
   color: #a8a8a8;
-  font-size: 10px;
+  font-size: 12px;
+  font-family: Monospace;
 }
+
 .creds a { color: #a8a8a8; }
 .creds a:hover { color: #FF00CC; }
 .creds a:active { color: #999999; }
